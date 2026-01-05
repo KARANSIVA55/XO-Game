@@ -83,5 +83,5 @@ function checkwin(){
                 boxes[i].textContent = "-";
             }
         }
-        }
     }
+}
