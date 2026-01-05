@@ -140,6 +140,48 @@ header{
 }
 
 
+@media (max-height:850px) {
+    .gamedisplay{
+        width: 90%;
+    }
+    .game{
+        width: 85%;
+        height: 85%;
+    }
+    .scoreboard{
+        font-size: 10px;
+        width: 90%;
+    }
+    .gamecount{
+        width: 110%;
+    }
+    .player{
+        width: 85%;
+        height: 75%;
+    }
+}
+
+@media (max-height:810px) {
+    .gamedisplay{
+        width: 90%;
+    }
+    .game{
+        width: 85%;
+        height: 115%;
+    }
+    .scoreboard{
+        font-size: 10px;
+        width: 90%;
+    }
+    .gamecount{
+        width: 110%;
+    }
+    .player{
+        width: 85%;
+        height: 75%;
+    }
+}
+
 @media (max-width:412px) {
     .gamedisplay{
         width: 90%;
