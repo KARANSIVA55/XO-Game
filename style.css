@@ -146,6 +146,7 @@ header{
     }
     .game{
         width: 85%;
+        height: 55%;
     }
     .scoreboard{
         font-size: 10px;
