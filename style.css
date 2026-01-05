@@ -139,22 +139,22 @@ header{
     align-content: center;
 }
 
-@media (max-width:600px) {
+@media (max-width:412px) {
     .gamedisplay{
         width: 90%;
     }
     .game{
-        width: 75%;
+        width: 85%;
     }
     .scoreboard{
-        font-size: 11px;
+        font-size: 10px;
         width: 90%;
     }
     .gamecount{
         width: 100%;
     }
     .player{
-        width: 80%;
+        width: 85%;
         height: 75%;
     }
 }
