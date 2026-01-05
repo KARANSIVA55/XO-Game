@@ -71,15 +71,19 @@ function checkwin(){
             gamecountdisplay.textContent = ("Game-"+gamecount);
             if(bx1 === "X"){
                 p1points += 1;
+                totalmoves = 9;
                 playerXscore.textContent = ("Points : " + p1points);
             }
             else if(bx1 === "O"){
                 p2points += 1;
+                totalmoves = 9;
                 playerOscore.textContent = ("Points : "+ p2points);
             }
             for(i=0;i<boxes.length;i++){
                 boxes[i].textContent = "-";
             }
         }
+        }
     }
+
 }
