@@ -139,6 +139,7 @@ header{
     align-content: center;
 }
 
+
 @media (max-width:412px) {
     .gamedisplay{
         width: 90%;
@@ -151,10 +152,30 @@ header{
         width: 90%;
     }
     .gamecount{
-        width: 100%;
+        width: 110%;
     }
     .player{
         width: 85%;
+        height: 75%;
+    }
+}
+
+@media (max-width:390px) {
+    .gamedisplay{
+        width: 90%;
+    }
+    .game{
+        width: 85%;
+    }
+    .scoreboard{
+        font-size: 10px;
+        width: 90%;
+    }
+    .gamecount{
+        width: 110%;
+    }
+    .player{
+        width: 90%;
         height: 75%;
     }
 }
