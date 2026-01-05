@@ -140,7 +140,7 @@ header{
 }
 
 
-@media (max-height:1600px) {
+@media (max-height:915px) {
     header{
         font-size: 25px;
     }
